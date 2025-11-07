@@ -1,0 +1,62 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Sparse shepherding control of large-scale multi-agent
+  systems via Reinforcement Learning
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Luigi
+    family-names: Catello
+    email: luigicatello16@gmail.com
+    affiliation: >-
+      Modeling and Engineering Risk and Complexity
+      department, Scuola Superiore Meridionale, via
+      Mezzocannone 4, 80138, Naples, Italy
+  - given-names: Italo
+    family-names: Napolitano
+    email: i.napolitano@ssmeridionale.it
+    affiliation: >-
+      Modeling and Engineering Risk and Complexity
+      department, Scuola Superiore Meridionale, via
+      Mezzocannone 4, 80138, Naples, Italy
+  - given-names: Davide
+    family-names: Salzano
+    email: davide.salzano@unina.it
+    affiliation: >-
+      Department of Information Technology and Electrical
+      Engineering, University of Naples Federico II, Naples,
+      Italy
+  - given-names: Mario
+    family-names: di Bernardo
+    email: mario.dibernardo@unina.it
+    affiliation: >-
+      Modeling and Engineering Risk and Complexity
+      department, Scuola Superiore Meridionale, via
+      Mezzocannone 4, 80138, Naples, Italy, and Department
+      of Information Technology and Electrical Engineering,
+      University of Naples Federico II, Naples, Italy
+repository-code: >-
+  https://github.com/SINCROgroup/Sparse-shepherding-control-of-large-scale-multi-agent-systems-via-Reinforcement-Learning
+abstract: >-
+  We propose a reinforcement learning framework for sparse
+  indirect control of large-scale multi-agent systems, where
+  few controlled agents shape the collective behavior of
+  many uncontrolled agents. The approach addresses this
+  multi-scale challenge by coupling ODEs (modeling
+  controlled agents) with a PDE (describing the uncontrolled
+  population density), capturing how microscopic control
+  achieves macroscopic objectives. Our method combines
+  model-free reinforcement learning with adaptive gain
+  compensation to overcome sparse actuation limitations.
+  Numerical validation demonstrates effective density
+  control, with the system achieving target distributions
+  while maintaining robustness to disturbances and
+  measurement noise, confirming that learning-based sparse
+  control can replace computationally expensive online
+  optimization.
+license: GPL-3.0
